@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# Database
+backend/database/*.db
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Node / React
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+.DS_Store
+*.log

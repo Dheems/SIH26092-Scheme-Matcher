@@ -1,0 +1,1122 @@
+[
+  {
+    "id": "pmegp",
+    "name": "Prime Minister's Employment Generation Programme (PMEGP)",
+    "code": "PMEGP",
+    "ministry": "Ministry of Micro, Small and Medium Enterprises (MoMSME)",
+    "description": "Credit-linked subsidy programme to generate self-employment opportunities through establishment of micro-enterprises in non-farm sector.",
+    "target_beneficiaries": [
+      "SC",
+      "ST",
+      "OBC",
+      "Women",
+      "Minority",
+      "Differently-abled",
+      "General"
+    ],
+    "business_types": [
+      "Manufacturing",
+      "Services",
+      "Food Processing",
+      "Textile",
+      "Handicrafts"
+    ],
+    "eligible_states": [
+      "All"
+    ],
+    "min_age": 18,
+    "max_age": 65,
+    "min_income": 0,
+    "max_income": null,
+    "funding_type": "Subsidy + Bank Loan",
+    "min_funding": 100000,
+    "max_funding": 5000000,
+    "subsidy_percentage": "15% to 35% (Higher for rural & special categories like SC/ST/OBC/Women)",
+    "business_stage": [
+      "New"
+    ],
+    "required_documents": [
+      "Aadhaar Card",
+      "Caste / Category Certificate (if SC/ST/OBC/Minority)",
+      "Educational Qualification Certificate (8th pass for project > ₹10L in mfg)",
+      "Project Detailed Report (DPR)",
+      "Rural Area Certificate (if claiming rural 35% subsidy)",
+      "EDP Training Certificate (online/offline prior to 1st loan release)"
+    ],
+    "eligibility_criteria": [
+      "Any individual above 18 years of age",
+      "For project above ₹10 Lakh in manufacturing sector and above ₹5 Lakh in service sector, minimum qualification is 8th standard pass",
+      "Only new projects are eligible under PMEGP",
+      "Self Help Groups (SHGs) not availing benefits under other schemes are also eligible"
+    ],
+    "application_steps": [
+      "Register and submit online application on PMEGP e-Portal (kviconline.gov.in)",
+      "Upload required documents (Aadhaar, Caste certificate, Photo, DPR)",
+      "District Level Task Force Committee (DLTFC) scrutinizes the application",
+      "Application is forwarded to chosen Financing Bank for sanction",
+      "Complete mandatory 5-10 days Entrepreneurship Development Programme (EDP) training",
+      "Bank releases loan and KVIC deposits Government Margin Money subsidy in TDR account"
+    ],
+    "official_reference": "https://www.kviconline.gov.in/pmegpeportal/",
+    "verification_disclaimer": "Verify current guidelines and portal links on official MoMSME/KVIC portals."
+  },
+  {
+    "id": "standup-india",
+    "name": "Stand-Up India Scheme",
+    "code": "SUI",
+    "ministry": "Ministry of Finance (Department of Financial Services)",
+    "description": "Facilitates bank loans between ₹10 Lakh and ₹1 Crore to at least one SC or ST borrower and at least one woman borrower per bank branch for setting up a greenfield enterprise.",
+    "target_beneficiaries": [
+      "SC",
+      "ST",
+      "Women"
+    ],
+    "business_types": [
+      "Manufacturing",
+      "Services",
+      "Agriculture",
+      "Food Processing",
+      "Retail",
+      "Textile",
+      "Handicrafts",
+      "Technology"
+    ],
+    "eligible_states": [
+      "All"
+    ],
+    "min_age": 18,
+    "max_age": 70,
+    "min_income": 0,
+    "max_income": null,
+    "funding_type": "Composite Bank Loan (Term Loan + Working Capital)",
+    "min_funding": 1000000,
+    "max_funding": 10000000,
+    "subsidy_percentage": "Margin money reduced up to 15% (can converge with state subsidies)",
+    "business_stage": [
+      "New"
+    ],
+    "required_documents": [
+      "Proof of Identity (Aadhaar / Voter ID / Passport)",
+      "Proof of Residence",
+      "Caste Certificate (for SC / ST applicants)",
+      "Business PAN & Registration Documents",
+      "Project Report with projected cash flows",
+      "Bank Statements for past 6 months"
+    ],
+    "eligibility_criteria": [
+      "Applicant must be an SC/ST and/or woman entrepreneur above 18 years of age",
+      "Loan is available only for greenfield (first time) enterprises in manufacturing, services, agri-allied, or trading sectors",
+      "In case of non-individual enterprises, at least 51% shareholding and controlling stake must be held by SC/ST or Women",
+      "Borrower should not be in default to any bank/financial institution"
+    ],
+    "application_steps": [
+      "Visit the Stand-Up India portal (standupmitra.in)",
+      "Register as a borrower and select handholding support if required",
+      "Fill the loan application and upload project feasibility report",
+      "Application is directed to the chosen Scheduled Commercial Bank",
+      "Bank assesses loan feasibility and sanctions credit facility"
+    ],
+    "official_reference": "https://www.standupmitra.in/",
+    "verification_disclaimer": "Verify current eligibility and margin requirements on the official Stand-Up Mitra portal."
+  },
+  {
+    "id": "pm-mudra-shishu",
+    "name": "Pradhan Mantri MUDRA Yojana — Shishu",
+    "code": "MUDRA-SHISHU",
+    "ministry": "Ministry of Finance",
+    "description": "Provides micro-credit up to ₹50,000 to budding micro-entrepreneurs, shopkeepers, fruit/vegetable vendors, and rural artisans with zero collateral.",
+    "target_beneficiaries": [
+      "SC",
+      "ST",
+      "OBC",
+      "Women",
+      "Minority",
+      "General"
+    ],
+    "business_types": [
+      "Retail",
+      "Services",
+      "Handicrafts",
+      "Agriculture",
+      "Food Processing",
+      "Textile"
+    ],
+    "eligible_states": [
+      "All"
+    ],
+    "min_age": 18,
+    "max_age": 65,
+    "min_income": 0,
+    "max_income": 500000,
+    "funding_type": "Collateral-Free Micro Loan",
+    "min_funding": 10000,
+    "max_funding": 50000,
+    "subsidy_percentage": "Nil upfront subsidy (Low interest, Zero collateral & processing fees waived)",
+    "business_stage": [
+      "New",
+      "Existing"
+    ],
+    "required_documents": [
+      "Aadhaar Card / Voter ID",
+      "Proof of Residence",
+      "Passport size photographs",
+      "Quotation of machinery/items to be purchased (if applicable)",
+      "Proof of business address/activity (if existing)"
+    ],
+    "eligibility_criteria": [
+      "Any Indian citizen with a business plan for non-farm income generating activity",
+      "Credit requirement up to ₹50,000",
+      "No past default history with any financial institution"
+    ],
+    "application_steps": [
+      "Apply through Udyamimitra portal or visit any public/private sector bank or MFI branch",
+      "Submit Shishu loan application form with KYC and price quotes",
+      "Instant sanction and disbursement to Mudra Card/Account upon verification"
+    ],
+    "official_reference": "https://www.mudra.org.in/",
+    "verification_disclaimer": "Verify current processing terms with your designated lending bank."
+  },
+  {
+    "id": "pm-mudra-kishore",
+    "name": "Pradhan Mantri MUDRA Yojana — Kishore",
+    "code": "MUDRA-KISHORE",
+    "ministry": "Ministry of Finance",
+    "description": "Funding support from ₹50,001 up to ₹5,00,000 for mid-stage micro-enterprises looking to purchase equipment, raw material, or expand operations.",
+    "target_beneficiaries": [
+      "SC",
+      "ST",
+      "OBC",
+      "Women",
+      "Minority",
+      "General"
+    ],
+    "business_types": [
+      "Manufacturing",
+      "Services",
+      "Food Processing",
+      "Retail",
+      "Textile",
+      "Handicrafts",
+      "Agriculture"
+    ],
+    "eligible_states": [
+      "All"
+    ],
+    "min_age": 18,
+    "max_age": 65,
+    "min_income": 0,
+    "max_income": 1500000,
+    "funding_type": "Collateral-Free Term Loan & Working Capital",
+    "min_funding": 50001,
+    "max_funding": 500000,
+    "subsidy_percentage": "Collateral-free backed by Credit Guarantee Fund for Micro Units (CGFMU)",
+    "business_stage": [
+      "New",
+      "Existing"
+    ],
+    "required_documents": [
+      "Proof of Identity & Address (Aadhaar/Voter ID/PAN)",
+      "Proof of Category (SC/ST/OBC Certificate if applicable)",
+      "Last 6 months Bank Statement",
+      "Business Registration / Udyam Registration",
+      "Sales tax / GST returns (for existing units over threshold)",
+      "Quotation for machinery or expansion estimate"
+    ],
+    "eligibility_criteria": [
+      "Small business owners, artisans, service providers needing ₹50,001 to ₹5 Lakhs",
+      "Satisfactory credit record without non-performing assets",
+      "Viable business model demonstrating repayment capacity"
+    ],
+    "application_steps": [
+      "Apply online via JanSamarth portal or UdyamiMitra",
+      "Upload KYC, Udyam registration, and quotation documents",
+      "Lending institution reviews cash flows and sanctions loan",
+      "Funds disbursed directly for machinery purchase and working capital limit"
+    ],
+    "official_reference": "https://www.mudra.org.in/",
+    "verification_disclaimer": "Verify interest rates and processing requirements on the official MUDRA/JanSamarth portal."
+  },
+  {
+    "id": "pm-mudra-tarun",
+    "name": "Pradhan Mantri MUDRA Yojana — Tarun",
+    "code": "MUDRA-TARUN",
+    "ministry": "Ministry of Finance",
+    "description": "Provides loans from ₹5,00,001 to ₹10,00,000 (extended up to ₹20 Lakhs in recent policy for proven repeat borrowers) for enterprise scaling.",
+    "target_beneficiaries": [
+      "SC",
+      "ST",
+      "OBC",
+      "Women",
+      "Minority",
+      "General"
+    ],
+    "business_types": [
+      "Manufacturing",
+      "Services",
+      "Food Processing",
+      "Retail",
+      "Textile",
+      "Technology"
+    ],
+    "eligible_states": [
+      "All"
+    ],
+    "min_age": 18,
+    "max_age": 65,
+    "min_income": 0,
+    "max_income": null,
+    "funding_type": "Collateral-Free Commercial Loan",
+    "min_funding": 500001,
+    "max_funding": 1000000,
+    "subsidy_percentage": "Covered under national credit guarantee scheme",
+    "business_stage": [
+      "Existing"
+    ],
+    "required_documents": [
+      "Identity and Address Proof",
+      "Udyam Registration Certificate",
+      "Audited balance sheets for previous 2 years",
+      "Projected balance sheet for 1 year",
+      "GST returns & 12 months bank statement",
+      "Partnership deed / Memorandum of Association (if registered entity)"
+    ],
+    "eligibility_criteria": [
+      "Established micro-units with operating track record seeking growth capital",
+      "Funding requirement between ₹5 Lakh and ₹10 Lakh",
+      "Clean financial repayment history"
+    ],
+    "application_steps": [
+      "Submit proposal on JanSamarth portal (jansamarth.in)",
+      "Select partner bank and submit historical financials",
+      "In-principle approval issued online followed by branch verification"
+    ],
+    "official_reference": "https://www.jansamarth.in/",
+    "verification_disclaimer": "Verify recent credit limit enhancements on official portal."
+  },
+  {
+    "id": "pm-svanidhi",
+    "name": "PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi)",
+    "code": "PM-SVANIDHI",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "description": "Special micro-credit facility providing affordable working capital loans to urban and peri-urban street vendors to resume livelihoods.",
+    "target_beneficiaries": [
+      "SC",
+      "ST",
+      "OBC",
+      "Minority",
+      "Women",
+      "General"
+    ],
+    "business_types": [
+      "Retail",
+      "Services",
+      "Food Processing",
+      "Handicrafts"
+    ],
+    "eligible_states": [
+      "All"
+    ],
+    "min_age": 18,
+    "max_age": 70,
+    "min_income": 0,
+    "max_income": 300000,
+    "funding_type": "Working Capital Loan + 7% Interest Subsidy",
+    "min_funding": 10000,
+    "max_funding": 50000,
+    "subsidy_percentage": "7% interest subsidy credited directly to bank account + digital cashback up to ₹1,200/year",
+    "business_stage": [
+      "Existing"
+    ],
+    "required_documents": [
+      "Aadhaar Card",
+      "Vending Certificate / Identity Card issued by Urban Local Body (ULB)",
+      "Letter of Recommendation (LoR) from ULB/Town Vending Committee (if ID card missing)",
+      "Bank account details linked with Aadhaar"
+    ],
+    "eligibility_criteria": [
+      "Street vendors engaged in vending in urban/peri-urban areas on or before the qualifying cut-off date",
+      "Tranche 1: ₹10,000 (repayable in 1 year)",
+      "Tranche 2: ₹20,000 upon timely repayment of 1st loan",
+      "Tranche 3: ₹50,000 upon timely repayment of 2nd loan"
+    ],
+    "application_steps": [
+      "Access PMSVANidhi portal or mobile app (pmsvanidhi.mohua.gov.in)",
+      "Verify Aadhaar with OTP",
+      "Upload Certificate of Vending or LoR",
+      "Select Preferred Lending Institution (Lender)",
+      "Disbursement credited directly to bank account"
+    ],
+    "official_reference": "https://pmsvanidhi.mohua.gov.in/",
+    "verification_disclaimer": "Verify latest interest subsidy cycles on the official PM SVANidhi portal."
+  },
+  {
+    "id": "pm-vishwakarma",
+    "name": "PM Vishwakarma Scheme",
+    "code": "PM-VISHWAKARMA",
+    "ministry": "Ministry of Micro, Small and Medium Enterprises",
+    "description": "Holistic support scheme providing recognition, skill upgradation, ₹15,000 toolkit incentive, and collateral-free enterprise credit at 5% concessional interest to traditional artisans and craftspeople.",
+    "target_beneficiaries": [
+      "OBC",
+      "SC",
+      "ST",
+      "Women",
+      "General"
+    ],
+    "business_types": [
+      "Handicrafts",
+      "Manufacturing",
+      "Services",
+      "Textile"
+    ],
+    "eligible_states": [
+      "All"
+    ],
+    "min_age": 18,
+    "max_age": 70,
+    "min_income": 0,
+    "max_income": 400000,
+    "funding_type": "Skill Stipend + Toolkit Grant (₹15,000) + Concessional Credit (up to ₹3 Lakh)",
+    "min_funding": 15000,
+    "max_funding": 300000,
+    "subsidy_percentage": "5% subsidized interest rate (MoMSME pays up to 8% subvention) + ₹15k grant for modern tools",
+    "business_stage": [
+      "Existing",
+      "New"
+    ],
+    "required_documents": [
+      "Aadhaar Card & mobile linked",
+      "Ration Card / Family details",
+      "Bank Account details",
+      "Declaration of engagement in one of 18 designated traditional trades (Carpenter, Blacksmith, Potter, Weaver, Cobbler, Tailor, etc.)"
+    ],
+    "eligibility_criteria": [
+      "Artisan working with hands and tools in one of the 18 specified family-based traditional trades",
+      "Minimum age 18 years on the date of registration",
+      "Beneficiary should not have availed loans under PMEGP/Mudra/PM-SVANidhi in last 5 years",
+      "Registration limited to one member per family"
+    ],
+    "application_steps": [
+      "Register via Common Service Centre (CSC) on pmvishwakarma.gov.in",
+      "Three-step verification: Gram Panchayat/ULB, District Implementation Committee, Screening Committee",
+      "Receive PM Vishwakarma Certificate & Digital ID",
+      "Complete 5-7 days basic skill training with ₹500/day stipend",
+      "Receive ₹15,000 electronic voucher for toolkit purchase",
+      "Avail Tranche 1 credit (up to ₹1 Lakh @ 5%) and Tranche 2 (up to ₹2 Lakh)"
+    ],
+    "official_reference": "https://pmvishwakarma.gov.in/",
+    "verification_disclaimer": "Verify list of 18 trades and CSC center enrollment on the official PM Vishwakarma portal."
+  },
+  {
+    "id": "pm-fme",
+    "name": "PM Formalisation of Micro food processing Enterprises (PM-FME)",
+    "code": "PM-FME",
+    "ministry": "Ministry of Food Processing Industries (MoFPI)",
+    "description": "Centrally sponsored scheme to enhance competitiveness of individual micro-enterprises in the food processing industry and promote formalization of the sector.",
+    "target_beneficiaries": [
+      "OBC",
+      "SC",
+      "ST",
+      "Women",
+      "General"
+    ],
+    "business_types": [
+      "Food Processing",
+      "Agriculture"
+    ],
+    "eligible_states": [
+      "All"
+    ],
+    "min_age": 18,
+    "max_age": 65,
+    "min_income": 0,
+    "max_income": null,
+    "funding_type": "Credit-linked Capital Subsidy",
+    "min_funding": 100000,
+    "max_funding": 3000000,
+    "subsidy_percentage": "35% of eligible project cost with a ceiling of ₹10 Lakh per unit",
+    "business_stage": [
+      "Existing",
+      "New"
+    ],
+    "required_documents": [
+      "Aadhaar & PAN card",
+      "Udyam Registration Certificate",
+      "FSSAI Registration / Application copy",
+      "Quotation for Food Processing Machinery",
+      "Bank Account statement for 6 months",
+      "Proof of ownership or lease of premises"
+    ],
+    "eligibility_criteria": [
+      "Existing micro food processing unit or prospective entrepreneur entering the food processing sector",
+      "Unit must follow the One District One Product (ODOP) focus of the district for priority assistance",
+      "Individual micro-units should contribute at least 10% of project cost as margin money",
+      "Ownership status: Sole proprietorship, partnership, FPO, or SHG"
+    ],
+    "application_steps": [
+      "Register on the PMFME portal (pmfme.mofpi.gov.in)",
+      "Submit Detailed Project Report (DPR) with machinery quotations",
+      "District Resource Person (DRP) assists in document preparation and verification",
+      "District Level Committee recommends loan to the lending bank",
+      "Bank disburses loan and capital subsidy is transferred to subsidy reserve fund"
+    ],
+    "official_reference": "https://pmfme.mofpi.gov.in/",
+    "verification_disclaimer": "Check your district's One District One Product (ODOP) list on official portal."
+  },
+  {
+    "id": "cgtmse",
+    "name": "Credit Guarantee Scheme for Micro & Small Enterprises (CGTMSE)",
+    "code": "CGTMSE",
+    "ministry": "Ministry of MSME & SIDBI",
+    "description": "Enables collateral-free credit (term loans and working capital) up to ₹5 Crore to micro and small enterprises by guaranteeing bank credit risk.",
+    "target_beneficiaries": [
+      "SC",
+      "ST",
+      "Women",
+      "OBC",
+      "General"
+    ],
+    "business_types": [
+      "Manufacturing",
+      "Services",
+      "Technology",
+      "Food Processing",
+      "Textile",
+      "Retail"
+    ],
+    "eligible_states": [
+      "All"
+    ],
+    "min_age": 18,
+    "max_age": 70,
+    "min_income": 0,
+    "max_income": null,
+    "funding_type": "Collateral-Free Bank Loan Guarantee",
+    "min_funding": 500000,
+    "max_funding": 50000000,
+    "subsidy_percentage": "Guarantee coverage up to 85% for Women/SC/ST/Aspirational Districts",
+    "business_stage": [
+      "New",
+      "Existing"
+    ],
+    "required_documents": [
+      "Udyam Registration Number",
+      "KYC documents of Directors/Partners/Proprietor",
+      "Project report with 3 years projections",
+      "Past 2 years audited financial statements (for existing units)",
+      "Sanction letter from Member Lending Institution (MLI)"
+    ],
+    "eligibility_criteria": [
+      "New and existing Micro and Small Enterprises engaged in manufacturing or service activities",
+      "Loan facility up to ₹500 Lakhs without third-party guarantee or collateral security",
+      "Applicant enterprise must have a valid Udyam Registration"
+    ],
+    "application_steps": [
+      "Prepare viable project proposal and obtain Udyam Registration",
+      "Apply to any Scheduled Bank / NBFC (Member Lending Institution)",
+      "Bank evaluates proposal and sanctions loan under CGTMSE cover directly",
+      "Borrower pays nominal annual guarantee fee (concessional for women/SC/ST)"
+    ],
+    "official_reference": "https://www.cgtmse.in/",
+    "verification_disclaimer": "Confirm current guarantee fee concessions for special categories on CGTMSE portal."
+  },
+  {
+    "id": "national-scst-hub",
+    "name": "National SC-ST Hub (NSSH) Special Credit Linked Capital Subsidy",
+    "code": "NSSH-SCLCSS",
+    "ministry": "Ministry of Micro, Small and Medium Enterprises",
+    "description": "Provides 25% capital subsidy for procurement of plant and machinery to SC/ST entrepreneurs for technology upgradation and scaling.",
+    "target_beneficiaries": [
+      "SC",
+      "ST"
+    ],
+    "business_types": [
+      "Manufacturing",
+      "Services",
+      "Textile",
+      "Food Processing",
+      "Handicrafts"
+    ],
+    "eligible_states": [
+      "All"
+    ],
+    "min_age": 18,
+    "max_age": 65,
+    "min_income": 0,
+    "max_income": null,
+    "funding_type": "Capital Subsidy (Upfront)",
+    "min_funding": 200000,
+    "max_funding": 2500000,
+    "subsidy_percentage": "25% upfront capital subsidy on institutional finance up to ₹1 Crore",
+    "business_stage": [
+      "New",
+      "Existing"
+    ],
+    "required_documents": [
+      "Caste Certificate issued by Competent Authority",
+      "Udyam Registration Certificate with SC/ST classification",
+      "Bank Loan Sanction Letter for term loan",
+      "Invoices/Quotations for machinery purchase",
+      "CA Certificate certifying investment in plant & machinery"
+    ],
+    "eligibility_criteria": [
+      "Sole Proprietorship units owned by SC/ST entrepreneurs",
+      "In partnership/private limited companies, at least 51% stake held by SC/ST promoter(s)",
+      "Must have availed institutional credit from eligible lending institutions for machinery",
+      "Valid Udyam Registration"
+    ],
+    "application_steps": [
+      "Obtain institutional term loan sanction for plant & machinery",
+      "Register on National SC-ST Hub portal (scsthub.in)",
+      "Nodal bank uploads subsidy claim on MSME portal",
+      "Subsidy disbursed directly to loan account upon verification"
+    ],
+    "official_reference": "https://www.scsthub.in/",
+    "verification_disclaimer": "Verify eligible machinery categories with National SC/ST Hub Nodal Office."
+  },
+  {
+    "id": "asiim",
+    "name": "Ambedkar Social Innovation and Incubation Mission (ASIIM)",
+    "code": "ASIIM",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "description": "Supports commercial ventures and innovative tech ideas promoted by SC youth and students through Technology Business Incubators (TBIs).",
+    "target_beneficiaries": [
+      "SC"
+    ],
+    "business_types": [
+      "Technology",
+      "Services",
+      "Manufacturing",
+      "Agriculture",
+      "Food Processing"
+    ],
+    "eligible_states": [
+      "All"
+    ],
+    "min_age": 18,
+    "max_age": 40,
+    "min_income": 0,
+    "max_income": null,
+    "funding_type": "Equity Support / Grant",
+    "min_funding": 500000,
+    "max_funding": 3000000,
+    "subsidy_percentage": "Up to ₹30 Lakh equity funding over 3 years (₹10 Lakh per year)",
+    "business_stage": [
+      "New"
+    ],
+    "required_documents": [
+      "Caste Certificate confirming SC status",
+      "Proof of age (Aadhaar / Matriculation certificate)",
+      "Business Innovation / Tech Proposal",
+      "Incubation Recommendation letter from certified TBI / DST incubator",
+      "Company / LLP Incorporation Certificate"
+    ],
+    "eligibility_criteria": [
+      "SC youth/innovators identified by Technology Business Incubators (TBIs)",
+      "Entities where SC promoters hold at least 51% equity",
+      "Innovative, tech-oriented business ideas with commercial potential",
+      "Age below 40 years"
+    ],
+    "application_steps": [
+      "Connect with a partner TBI or apply via Venture Capital Fund for SC (VCF-SC) portal",
+      "Submit innovation pitch deck and prototype demonstration",
+      "Screening by ASIIM Investment Committee",
+      "Fund disbursement in milestones linked with incubation progress"
+    ],
+    "official_reference": "https://vcfsc.in/",
+    "verification_disclaimer": "Check accredited TBIs and incubator list on VCF-SC/ASIIM portal."
+  },
+  {
+    "id": "mahila-samridhi",
+    "name": "Mahila Samridhi Yojana (NBCFDC)",
+    "code": "MSY-NBCFDC",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "description": "Micro-finance scheme providing concessional loans through State Channelising Agencies (SCAs) to women entrepreneurs belonging to Backward Classes.",
+    "target_beneficiaries": [
+      "Women",
+      "OBC"
+    ],
+    "business_types": [
+      "Handicrafts",
+      "Services",
+      "Retail",
+      "Textile",
+      "Agriculture",
+      "Food Processing"
+    ],
+    "eligible_states": [
+      "All"
+    ],
+    "min_age": 18,
+    "max_age": 60,
+    "min_income": 0,
+    "max_income": 300000,
+    "funding_type": "Concessional Micro-Credit",
+    "min_funding": 25000,
+    "max_funding": 140000,
+    "subsidy_percentage": "Extremely low interest rate of 4% per annum (NBCFDC to SCA @ 1%)",
+    "business_stage": [
+      "New",
+      "Existing"
+    ],
+    "required_documents": [
+      "Aadhaar Card",
+      "OBC / Backward Class Certificate issued by State authority",
+      "Annual Income Certificate (< ₹3,00,000 per annum)",
+      "Bank Passbook copy",
+      "Self-Help Group (SHG) membership card (if applying through group)"
+    ],
+    "eligibility_criteria": [
+      "Women entrepreneurs belonging to Backward Classes as notified by Central/State govt",
+      "Annual family income must be below ₹3 Lakh",
+      "Individual borrower or member of women SHG",
+      "No default with local cooperative or regional bank"
+    ],
+    "application_steps": [
+      "Contact State Channelising Agency (SCA) or Regional Rural Bank (RRB)",
+      "Fill Mahila Samridhi application form with OBC and income certificate",
+      "SCA processes application under NBCFDC credit line",
+      "Loan disbursed at 4% annual interest with flexible quarterly repayments"
+    ],
+    "official_reference": "https://nbcfdc.gov.in/",
+    "verification_disclaimer": "Verify state channelising agency contacts on official NBCFDC portal."
+  },
+  {
+    "id": "nmdfc-term-loan",
+    "name": "NMDFC Term Loan Scheme for Minority Entrepreneurs",
+    "code": "NMDFC-TLS",
+    "ministry": "Ministry of Minority Affairs",
+    "description": "Concessional term loans up to ₹20 Lakhs for commercially viable and self-employment ventures by entrepreneurs from notified minority communities.",
+    "target_beneficiaries": [
+      "Minority",
+      "Women",
+      "OBC",
+      "SC",
+      "ST"
+    ],
+    "business_types": [
+      "Manufacturing",
+      "Services",
+      "Food Processing",
+      "Handicrafts",
+      "Retail",
+      "Agriculture",
+      "Textile"
+    ],
+    "eligible_states": [
+      "All"
+    ],
+    "min_age": 18,
+    "max_age": 65,
+    "min_income": 0,
+    "max_income": 800000,
+    "funding_type": "Concessional Term Loan",
+    "min_funding": 50000,
+    "max_funding": 2000000,
+    "subsidy_percentage": "Interest rate as low as 6% p.a. for Credit Line-1 and 8% p.a. for Credit Line-2",
+    "business_stage": [
+      "New",
+      "Existing"
+    ],
+    "required_documents": [
+      "Minority Community Certificate / Self-declaration affidavit (Muslim, Christian, Sikh, Buddhist, Jain, Parsi)",
+      "Income Certificate from Revenue Authority",
+      "Aadhaar Card & Address proof",
+      "Detailed project quotation / expenditure plan",
+      "Educational/Skill certificate relevant to trade"
+    ],
+    "eligibility_criteria": [
+      "Member of notified minority community",
+      "Credit Line 1: Annual family income up to ₹98,000 (rural) / ₹1,20,000 (urban)",
+      "Credit Line 2: Annual family income up to ₹8,00,000",
+      "Age between 18 and 65 years"
+    ],
+    "application_steps": [
+      "Apply through State Channelising Agency (SCA) of State Minority Development Corporation",
+      "Submit KYC, minority verification, and project proposal",
+      "SCA sanctions loan with repayment tenure up to 5 years"
+    ],
+    "official_reference": "https://www.nmdfc.org/",
+    "verification_disclaimer": "Check state minority corporation portal for current intake dates."
+  },
+  {
+    "id": "sfurti",
+    "name": "Scheme of Fund for Regeneration of Traditional Industries (SFURTI)",
+    "code": "SFURTI",
+    "ministry": "Ministry of MSME",
+    "description": "Organizes traditional artisans and rural craft producers into viable competitive clusters with modern machinery, common facility centres, and market linkage.",
+    "target_beneficiaries": [
+      "SC",
+      "ST",
+      "OBC",
+      "Women",
+      "Rural"
+    ],
+    "business_types": [
+      "Handicrafts",
+      "Textile",
+      "Food Processing",
+      "Manufacturing"
+    ],
+    "eligible_states": [
+      "All"
+    ],
+    "min_age": 18,
+    "max_age": 70,
+    "min_income": 0,
+    "max_income": null,
+    "funding_type": "Cluster Grant Support",
+    "min_funding": 500000,
+    "max_funding": 50000000,
+    "subsidy_percentage": "Up to 90% grant (up to ₹2.5 Cr for regular / ₹5 Cr for major cluster)",
+    "business_stage": [
+      "Existing",
+      "New"
+    ],
+    "required_documents": [
+      "Cluster registration / SPV formation documents",
+      "List of minimum 500 artisans (Regular) / 1000 artisans (Major)",
+      "Detailed Diagnostic Study & Detailed Project Report (DPR)",
+      "Consent for land/building for Common Facility Centre (CFC)"
+    ],
+    "eligibility_criteria": [
+      "Artisan groups, SHGs, Cooperatives, NGOs, or Panchayati Raj Institutions (PRIs)",
+      "Cluster must represent traditional sectors like Khadi, Coir, Bamboo, Honey, Handlooms, or Handicrafts",
+      "Promotes collective ownership and common infrastructure"
+    ],
+    "application_steps": [
+      "Nodal Agency (KVIC/Coir Board) invites cluster proposals",
+      "Technical Agency conducts Diagnostic Study and prepares DPR",
+      "Scheme Steering Committee approves project and releases grant in phases"
+    ],
+    "official_reference": "https://sfurti.msme.gov.in/",
+    "verification_disclaimer": "Verify list of empaneled Technical Agencies on SFURTI portal."
+  },
+  {
+    "id": "acabc",
+    "name": "Agri-Clinics and Agri-Business Centres Scheme (ACABC)",
+    "code": "ACABC",
+    "ministry": "Ministry of Agriculture and Farmers Welfare (MANAGE)",
+    "description": "Subsidized bank loan scheme to enable agricultural graduates, diploma holders, and rural science entrepreneurs to set up custom hiring, inputs, and advisory enterprises.",
+    "target_beneficiaries": [
+      "OBC",
+      "SC",
+      "ST",
+      "Women",
+      "General"
+    ],
+    "business_types": [
+      "Agriculture",
+      "Services",
+      "Food Processing"
+    ],
+    "eligible_states": [
+      "All"
+    ],
+    "min_age": 18,
+    "max_age": 60,
+    "min_income": 0,
+    "max_income": null,
+    "funding_type": "Composite Subsidy + Bank Loan",
+    "min_funding": 200000,
+    "max_funding": 2000000,
+    "subsidy_percentage": "36% capital subsidy (enhanced to 44% for Women, SC/ST, and Hill/NE States)",
+    "business_stage": [
+      "New"
+    ],
+    "required_documents": [
+      "Agriculture / Allied Science Degree / Diploma Certificate",
+      "Aadhaar Card and PAN Card",
+      "MANAGE 45-day residential training completion certificate",
+      "Detailed Project Report for agribusiness unit",
+      "Bank sanction letter"
+    ],
+    "eligibility_criteria": [
+      "Graduates in Agriculture and allied subjects (Horticulture, Dairy, Veterinary, Fisheries, Agronomy)",
+      "Diploma holders in Agriculture subjects with at least 50% marks",
+      "Completion of MANAGE certified residential training program",
+      "Ceiling of project cost: ₹20 Lakh for individual, ₹1 Crore for group of 5"
+    ],
+    "application_steps": [
+      "Apply online for 45-day training program at manage.gov.in",
+      "Complete free training with residential boarding provided by MANAGE",
+      "Prepare DPR with mentor support",
+      "Submit DPR to commercial bank for loan sanction",
+      "NABARD credits composite subsidy to borrower's account upon sanction"
+    ],
+    "official_reference": "https://www.agriclinics.net/",
+    "verification_disclaimer": "Verify upcoming MANAGE training batches on official ACABC website."
+  },
+  {
+    "id": "pmmsy",
+    "name": "Pradhan Mantri Matsya Sampada Yojana (PMMSY)",
+    "code": "PMMSY",
+    "ministry": "Ministry of Fisheries, Animal Husbandry and Dairying",
+    "description": "Flagship scheme to boost fisheries production, cold storage, hatcheries, fish retail kiosks, and ornamental fisheries with high subsidies for marginalized groups.",
+    "target_beneficiaries": [
+      "SC",
+      "ST",
+      "Women",
+      "OBC",
+      "General"
+    ],
+    "business_types": [
+      "Agriculture",
+      "Food Processing",
+      "Services",
+      "Retail"
+    ],
+    "eligible_states": [
+      "All"
+    ],
+    "min_age": 18,
+    "max_age": 65,
+    "min_income": 0,
+    "max_income": null,
+    "funding_type": "Back-ended Capital Subsidy",
+    "min_funding": 100000,
+    "max_funding": 5000000,
+    "subsidy_percentage": "40% subsidy for General; 60% for SC, ST, and Women beneficiaries",
+    "business_stage": [
+      "New",
+      "Existing"
+    ],
+    "required_documents": [
+      "Aadhaar Card",
+      "Caste / Gender verification certificate",
+      "Proof of Land / Water Body ownership or Registered Lease for minimum 7-10 years",
+      "Detailed estimate/DPR for fish pond, biofloc, or retail kiosk",
+      "Bank Account details & CIBIL report"
+    ],
+    "eligibility_criteria": [
+      "Fishers, Fish Farmers, Fisheries Development Corporations, SHGs, and Micro-entrepreneurs",
+      "Possession of suitable land/water resources or leased premises",
+      "Beneficiary must bear minimum 40% margin (for SC/ST/Women) or 60% (for General)"
+    ],
+    "application_steps": [
+      "Apply through State Department of Fisheries or online on pmmsy.dof.gov.in",
+      "District Fisheries Development Officer verifies site inspection",
+      "District Level Committee forwards approved DPR to State Level Committee",
+      "Sanction letter issued; financial subsidy released in project progress milestones"
+    ],
+    "official_reference": "https://pmmsy.dof.gov.in/",
+    "verification_disclaimer": "Verify current district target allocations with your local District Fisheries Officer."
+  },
+  {
+    "id": "vcf-sc",
+    "name": "Venture Capital Fund for Scheduled Castes (VCF-SC)",
+    "code": "VCF-SC",
+    "ministry": "Ministry of Social Justice and Empowerment (IFCI Venture)",
+    "description": "First-of-its-kind venture capital fund providing concessional equity and debt funding to high-growth, technology, manufacturing, and scalable ventures promoted by SC entrepreneurs.",
+    "target_beneficiaries": [
+      "SC"
+    ],
+    "business_types": [
+      "Manufacturing",
+      "Technology",
+      "Services",
+      "Food Processing",
+      "Textile"
+    ],
+    "eligible_states": [
+      "All"
+    ],
+    "min_age": 21,
+    "max_age": 65,
+    "min_income": 0,
+    "max_income": null,
+    "funding_type": "Venture Debt & Equity Investment",
+    "min_funding": 2000000,
+    "max_funding": 150000000,
+    "subsidy_percentage": "Concessional coupon rate of 4% p.a. (for SC women/disabled) / 8% p.a. (others)",
+    "business_stage": [
+      "Existing",
+      "New"
+    ],
+    "required_documents": [
+      "SC Caste Certificate of key promoters",
+      "Company Incorporation documents (Private Limited / Public Limited)",
+      "Proof of minimum 51% shareholding by SC promoters for 12 months",
+      "Audited financial statements and Business Plan",
+      "Due diligence technical and financial reports"
+    ],
+    "eligibility_criteria": [
+      "Company registered under Companies Act with at least 51% SC shareholding and management control",
+      "Viable business concept with demonstrable scalability and commercial return",
+      "Credit assistance ranges from ₹20 Lakhs to ₹15 Crores"
+    ],
+    "application_steps": [
+      "Submit detailed application on vcfsc.in portal",
+      "Preliminary evaluation by IFCI Venture Capital team",
+      "Presentation before Investment Committee",
+      "Due diligence, term sheet agreement, and disbursement in tranches"
+    ],
+    "official_reference": "https://vcfsc.in/",
+    "verification_disclaimer": "Review formal term sheet rules and IFCI Venture guidelines on official portal."
+  },
+  {
+    "id": "coir-vikas",
+    "name": "Coir Vikas Yojana — Science & Technology / Skill Upgradation",
+    "code": "COIR-VIKAS",
+    "ministry": "Ministry of MSME (Coir Board)",
+    "description": "Assistance for procurement of modern machinery, technology induction, and skill training for traditional coir workers, women self-help groups, and rural cottage units.",
+    "target_beneficiaries": [
+      "Women",
+      "OBC",
+      "SC",
+      "ST",
+      "Rural"
+    ],
+    "business_types": [
+      "Manufacturing",
+      "Handicrafts",
+      "Textile"
+    ],
+    "eligible_states": [
+      "Kerala",
+      "Tamil Nadu",
+      "Karnataka",
+      "Andhra Pradesh",
+      "Odisha",
+      "Maharashtra",
+      "West Bengal",
+      "All"
+    ],
+    "min_age": 18,
+    "max_age": 65,
+    "min_income": 0,
+    "max_income": null,
+    "funding_type": "Equipment Subsidy + Skill Stipend",
+    "min_funding": 50000,
+    "max_funding": 1000000,
+    "subsidy_percentage": "25% to 50% subsidy on modern coir spinning/weaving machinery",
+    "business_stage": [
+      "New",
+      "Existing"
+    ],
+    "required_documents": [
+      "Aadhaar Card",
+      "Coir Board Registration / Udyam Registration",
+      "Proof of Training in Coir Craft",
+      "Proforma Invoice of machinery from authorized manufacturer",
+      "Bank Account details"
+    ],
+    "eligibility_criteria": [
+      "Coir artisans, spinning units, and rural women coir cooperatives",
+      "Willingness to modernize conventional ratts with motorized spinning machines",
+      "Availability of coconut husk/coir raw material in local area"
+    ],
+    "application_steps": [
+      "Submit application to nearest Coir Board Sub-Regional Office or portal",
+      "Physical verification by field officer",
+      "Sanction issued and subsidy disbursed directly to machine supplier or unit account"
+    ],
+    "official_reference": "http://coirboard.gov.in/",
+    "verification_disclaimer": "Consult local Coir Board field offices for machinery vendor empaneled list."
+  },
+  {
+    "id": "dairy-deds",
+    "name": "National Livestock Mission (NLM) & Dairy Infrastructure Development",
+    "code": "NLM-DEDS",
+    "ministry": "Ministry of Fisheries, Animal Husbandry and Dairying",
+    "description": "Capital subsidy support for establishing modern mini dairy units, milking machines, bulk milk cooling units, and value-added dairy product manufacturing.",
+    "target_beneficiaries": [
+      "SC",
+      "ST",
+      "OBC",
+      "Women",
+      "General"
+    ],
+    "business_types": [
+      "Agriculture",
+      "Food Processing",
+      "Services"
+    ],
+    "eligible_states": [
+      "All"
+    ],
+    "min_age": 18,
+    "max_age": 65,
+    "min_income": 0,
+    "max_income": null,
+    "funding_type": "Back-ended Capital Subsidy",
+    "min_funding": 100000,
+    "max_funding": 2500000,
+    "subsidy_percentage": "25% for general; 33.33% for SC/ST and women farmers/entrepreneurs",
+    "business_stage": [
+      "New",
+      "Existing"
+    ],
+    "required_documents": [
+      "Aadhaar Card and Caste certificate (if SC/ST)",
+      "Land records (7/12 extract or registered lease)",
+      "Detailed project estimate for dairy sheds and cattle purchase",
+      "Bank loan sanction letter",
+      "Veterinary health certification"
+    ],
+    "eligibility_criteria": [
+      "Farmers, individual entrepreneurs, NGOs, Companies, and SHGs",
+      "Applicant can set up small dairy unit (2 to 10 crossbred cows/buffaloes) or milk processing unit",
+      "Must secure minimum 10% own promoter contribution"
+    ],
+    "application_steps": [
+      "Submit project proposal to commercial bank, RRB, or State Cooperative Bank",
+      "Bank sanctions credit and forwards subsidy request to NABARD",
+      "NABARD releases subsidy into Subsidy Reserve Fund account"
+    ],
+    "official_reference": "https://dahd.nic.in/",
+    "verification_disclaimer": "Check current fiscal year allocation under NLM portal."
+  },
+  {
+    "id": "aspire",
+    "name": "ASPIRE (Scheme for Promotion of Innovation, Rural Industry & Entrepreneurship)",
+    "code": "ASPIRE",
+    "ministry": "Ministry of MSME",
+    "description": "Sets up Livelihood Business Incubators (LBIs) and Technology Business Incubators (TBIs) to generate employment in agro-rural industries and empower youth with marketable trade skills.",
+    "target_beneficiaries": [
+      "OBC",
+      "SC",
+      "ST",
+      "Women",
+      "General"
+    ],
+    "business_types": [
+      "Agriculture",
+      "Food Processing",
+      "Technology",
+      "Manufacturing",
+      "Handicrafts"
+    ],
+    "eligible_states": [
+      "All"
+    ],
+    "min_age": 18,
+    "max_age": 45,
+    "min_income": 0,
+    "max_income": null,
+    "funding_type": "Incubation Grant & Seed Capital",
+    "min_funding": 100000,
+    "max_funding": 1000000,
+    "subsidy_percentage": "100% grant for machinery at LBIs + Seed capital up to ₹1 Crore through SIDBI fund of funds",
+    "business_stage": [
+      "New"
+    ],
+    "required_documents": [
+      "Aadhaar & educational certificates",
+      "Innovative agro-rural business proposal",
+      "LBI enrollment / training certificate",
+      "Udyam registration upon unit launch"
+    ],
+    "eligibility_criteria": [
+      "Rural youth and micro-entrepreneurs trained in Livelihood Business Incubators",
+      "Focus on agro-processing, local bio-resources, rural manufacturing, and farm tech",
+      "Aspiring to establish micro-enterprises with local raw materials"
+    ],
+    "application_steps": [
+      "Enroll in nearby MSME Livelihood Business Incubator (LBI)",
+      "Undergo hands-on prototype and machinery operation training",
+      "Submit enterprise proposal for seed capital assistance through MSME-SIDBI fund"
+    ],
+    "official_reference": "https://aspire.msme.gov.in/",
+    "verification_disclaimer": "Verify nearest functional LBI at official MSME ASPIRE directory."
+  }
+]
