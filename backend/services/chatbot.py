@@ -158,6 +158,24 @@ def get_schemesaathi_response(
             "What schemes can I apply for?",
             "How do I apply?"
         ]
+    elif any(k in query_lower for k in [
+        "navigate", "navigation", "use this website",
+        "how does this website work", "how to use",
+        "where do i find", "how do i use"
+    ]):
+        reply = (
+            "You can use SchemeSaathi in a few simple steps:\n\n"
+            "1. **Start with Find Schemes:** Enter your entrepreneur profile details.\n"
+            "2. **Get Matches:** Our matching engine compares your profile with available schemes.\n"
+            "3. **Explore Results:** View your top matching schemes and their match scores.\n"
+            "4. **View Details:** Open a scheme to check eligibility, documents and application steps.\n"
+            "5. **Ask SchemeSaathi:** Use the chatbot if you have questions about schemes or the application process."
+        )
+        suggested_prompts = [
+            "What schemes can I apply for?",
+            "Why did this scheme match me?",
+            "What documents do I need?"
+        ]
 
     elif any(k in query_lower for k in ["how to apply", "application step", "apply"]):
         reply = (

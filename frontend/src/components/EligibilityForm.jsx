@@ -136,15 +136,18 @@ export default function EligibilityForm({
               <label className="block text-xs font-bold text-slate-700 mb-1.5">
                 Gender *
               </label>
-              <select
-                value={formData.gender || 'Male'}
-                onChange={(e) => handleFieldChange('gender', e.target.value)}
-                className="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-300 rounded-xl text-xs font-medium text-slate-900 focus:bg-white focus:border-gov-navy focus:outline-none"
-              >
-                <option value="Male">Male</option>
-                <option value="Female">Female (Eligible for Women-specific grants & subventions)</option>
-                <option value="Other">Other</option>
-              </select>
+            <select
+            value={formData.gender || ''}
+            onChange={(e) => handleFieldChange('gender', e.target.value)}
+            className={`w-full px-3.5 py-2.5 bg-slate-50 border border-slate-300 rounded-xl text-xs font-medium ${
+            formData.gender ? 'text-slate-900' : 'text-slate-400'
+            }`}
+            >
+    <option value="">Select gender</option>
+    <option value="Male">Male</option>
+    <option value="Female">Female (Eligible for Women-specific grants & subventions)</option>
+    <option value="Other">Other</option>
+</select>
             </div>
 
             <div>
@@ -152,14 +155,16 @@ export default function EligibilityForm({
                 State / UT *
               </label>
               <select
-                value={formData.state || 'Maharashtra'}
-                onChange={(e) => handleFieldChange('state', e.target.value)}
-                className="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-300 rounded-xl text-xs font-medium text-slate-900 focus:bg-white focus:border-gov-navy focus:outline-none"
-              >
-                {INDIAN_STATES.filter(s => s !== "All").map(s => (
-                  <option key={s} value={s}>{s}</option>
-                ))}
-              </select>
+    value={formData.state || ''}
+    onChange={(e) => handleFieldChange('state', e.target.value)}
+    className={`w-full px-3.5 py-2.5 bg-slate-50 border border-slate-300 rounded-xl text-xs font-medium ${
+        formData.state ? 'text-slate-900' : 'text-slate-400'
+    }`}
+>
+    <option value="">Select state / UT</option>
+
+    {/* KEEP ALL YOUR EXISTING STATE OPTIONS BELOW */}
+</select>
             </div>
 
             <div>
@@ -180,14 +185,16 @@ export default function EligibilityForm({
                 Social Category *
               </label>
               <select
-                value={formData.social_category || 'OBC'}
-                onChange={(e) => handleFieldChange('social_category', e.target.value)}
-                className="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-300 rounded-xl text-xs font-medium text-slate-900 focus:bg-white focus:border-gov-navy focus:outline-none"
-              >
-                {SOCIAL_CATEGORIES.map(c => (
-                  <option key={c} value={c}>{c}</option>
-                ))}
-              </select>
+    value={formData.social_category || ''}
+    onChange={(e) => handleFieldChange('social_category', e.target.value)}
+    className={`w-full px-3.5 py-2.5 bg-slate-50 border border-slate-300 rounded-xl text-xs font-medium ${
+        formData.social_category ? 'text-slate-900' : 'text-slate-400'
+    }`}
+>
+    <option value="">Select social category</option>
+
+    {/* KEEP EXISTING CATEGORY OPTIONS */}
+</select>
             </div>
 
             <div className="sm:col-span-2 lg:col-span-3">
@@ -236,14 +243,16 @@ export default function EligibilityForm({
                 Business Type / Sector *
               </label>
               <select
-                value={formData.business_type || 'Food Processing'}
-                onChange={(e) => handleFieldChange('business_type', e.target.value)}
-                className="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-300 rounded-xl text-xs font-medium text-slate-900 focus:bg-white focus:border-gov-navy focus:outline-none"
-              >
-                {BUSINESS_TYPES.map(b => (
-                  <option key={b} value={b}>{b}</option>
-                ))}
-              </select>
+    value={formData.business_type || ''}
+    onChange={(e) => handleFieldChange('business_type', e.target.value)}
+    className={`w-full px-3.5 py-2.5 bg-slate-50 border border-slate-300 rounded-xl text-xs font-medium ${
+        formData.business_type ? 'text-slate-900' : 'text-slate-400'
+    }`}
+>
+    <option value="">Select business type / sector</option>
+
+    {/* KEEP EXISTING BUSINESS TYPE OPTIONS */}
+</select>
             </div>
 
             <div>
@@ -251,17 +260,36 @@ export default function EligibilityForm({
                 New / Existing Business *
               </label>
               <select
-                value={formData.is_new_business ? 'new' : 'existing'}
-                onChange={(e) => {
-                  const isNew = e.target.value === 'new';
-                  handleFieldChange('is_new_business', isNew);
-                  if (isNew) handleFieldChange('business_age', 0);
-                }}
-                className="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-300 rounded-xl text-xs font-medium text-slate-900 focus:bg-white focus:border-gov-navy focus:outline-none"
-              >
-                <option value="existing">Existing Operating Business</option>
-                <option value="new">New / Greenfield Enterprise</option>
-              </select>
+    value={
+        formData.is_new_business === true
+            ? 'new'
+            : formData.is_new_business === false
+                ? 'existing'
+                : ''
+    }
+    onChange={(e) => {
+        const value = e.target.value;
+
+        if (value === '') {
+            handleFieldChange('is_new_business', undefined);
+        } else {
+            handleFieldChange('is_new_business', value === 'new');
+        }
+
+        if (value === 'new') {
+            handleFieldChange('business_age', 0);
+        }
+    }}
+    className={`w-full px-3.5 py-2.5 bg-slate-50 border border-slate-300 rounded-xl text-xs font-medium ${
+        formData.is_new_business !== undefined
+            ? 'text-slate-900'
+            : 'text-slate-400'
+    } focus:bg-white focus:border-gov-navy focus:outline-none`}
+>
+    <option value="">Select business stage</option>
+    <option value="existing">Existing Operating Business</option>
+    <option value="new">New / Greenfield Enterprise</option>
+</select>
             </div>
 
             <div>
@@ -284,7 +312,7 @@ export default function EligibilityForm({
               </label>
               <input
                 type="number"
-                value={formData.employees !== undefined ? formData.employees : 4}
+                value={formData.employees !== undefined ? formData.employees : ''}
                 onChange={(e) => handleFieldChange('employees', parseInt(e.target.value) || 0)}
                 placeholder="e.g. 4"
                 min="0"
@@ -340,14 +368,16 @@ export default function EligibilityForm({
                 Purpose of Funding *
               </label>
               <select
-                value={formData.funding_purpose || 'Equipment Purchase'}
-                onChange={(e) => handleFieldChange('funding_purpose', e.target.value)}
-                className="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-300 rounded-xl text-xs font-medium text-slate-900 focus:bg-white focus:border-gov-navy focus:outline-none"
-              >
-                {FUNDING_PURPOSES.map(p => (
-                  <option key={p} value={p}>{p}</option>
-                ))}
-              </select>
+    value={formData.funding_purpose || ''}
+    onChange={(e) => handleFieldChange('funding_purpose', e.target.value)}
+    className={`w-full px-3.5 py-2.5 bg-slate-50 border border-slate-300 rounded-xl text-xs font-medium ${
+        formData.funding_purpose ? 'text-slate-900' : 'text-slate-400'
+    }`}
+>
+    <option value="">Select funding purpose</option>
+
+    {/* KEEP EXISTING FUNDING PURPOSE OPTIONS */}
+</select>
             </div>
           </div>
         </div>

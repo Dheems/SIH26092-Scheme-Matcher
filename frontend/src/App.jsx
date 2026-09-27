@@ -12,7 +12,7 @@ import { matchSchemes } from './services/api';
 
 export default function App() {
   const [currentView, setCurrentView] = useState('landing'); // 'landing', 'form', 'results', 'explorer'
-  const [profile, setProfile] = useState(DEMO_PERSONAS[0].profile);
+  const [profile, setProfile] = useState({});
   const [matchResults, setMatchResults] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
   const [selectedSchemeItem, setSelectedSchemeItem] = useState(null);
